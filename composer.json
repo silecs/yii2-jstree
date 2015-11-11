@@ -1,0 +1,27 @@
+{
+  "name": "silecs/yii2-jstree",
+  "description": "Yii2 JsTree widget",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "jstree",
+    "widget"
+  ],
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Silecs",
+      "homepage": "http://silecs.info",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2",
+    "bower-asset/jstree": "~3"
+  },
+  "autoload": {
+    "psr-4": {
+      "silecs\\jstree\\": "src"
+    }
+  }
+}
